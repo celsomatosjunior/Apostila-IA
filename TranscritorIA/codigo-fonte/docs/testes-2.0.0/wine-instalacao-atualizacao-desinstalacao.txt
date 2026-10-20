@@ -1,0 +1,32 @@
+# Teste final no Wine 9 — 18/10/2026 21:35
+Instalador 2.0.0 SHA-256: 0d6fee66fde84dfbf4a69bf652a85c0d217489e342e4c464445268cbe9855358
+1) Instalação da 1.0.0: instalador s1.exe rc=0
+   dados de usuário simulados: 7 arquivos (configuração, glossário, calibração, modelo, CUDA, checkpoint)
+2) Atualização para 2.0.0 por cima: instalador s2.exe rc=0
+   registro: "DisplayVersion"="2.0.0"
+   pasta do programa idêntica ao pacote 2.0 (3550 arquivos, inclui engines/ffmpeg)
+   dados do usuário: 7 arquivos idênticos (SHA-256) após a atualização
+3) Diagnóstico do executável instalado (TranscritorIA-cli.exe --diagnostico):
+   Transcritor IA Local 2.0.0 — dados em C:\users\root\AppData\Local\TranscritorIA
+   FFprobe: C:\Program Files\Transcritor IA Local\engines\ffmpeg\ffprobe.exe | FFmpeg: C:\Program Files\Transcritor IA Local\engines\ffmpeg\ffmpeg.exe
+   Leitura de áudio e detecção de voz: OK (16.9 s, 1 trecho(s) de fala)
+   whisper.cpp Vulkan: C:\Program Files\Transcritor IA Local\engines\whispercpp-vulkan\whisper-cli.exe | CPU: C:\Program Files\Transcritor IA Local\engines\whispercpp-cpu\whisper-cli.exe
+4) Pipeline 2.0 com o Python/PyAV/FFprobe/FFmpeg do instalador (motor simulado):
+    aula_5min.mp3 | audio | concluido | aula_5min.txt | WER 0.0 | análise ffprobe | original intacto 
+    aula_5min.mp4 | video | concluido | aula_5min (2).txt | WER 0.0 | análise ffprobe | original intacto 
+    aula_5min.mkv | video | concluido | aula_5min (3).txt | WER 0.0 | análise ffprobe | original intacto 
+    aula_5min.avi | video | concluido | aula_5min (4).txt | WER 0.0 | análise ffprobe | original intacto 
+    aula_5min.mov | video | concluido | aula_5min (5).txt | WER 0.0 | análise ffprobe | original intacto 
+    aula_5min.wmv | video | concluido | aula_5min (6).txt | WER 0.0 | análise ffprobe | original intacto 
+    aula_5min.webm | video | concluido | aula_5min (7).txt | WER 0.0 | análise ffprobe | original intacto 
+    aula_5min.mpg | video | concluido | aula_5min (8).txt | WER 0.0 | análise ffprobe | original intacto 
+    aula_5min.m4v | video | concluido | aula_5min (9).txt | WER 0.0 | análise ffprobe | original intacto 
+    aula_5min.flv | video | concluido | aula_5min (10).txt | WER 0.0 | análise ffprobe | original intacto 
+    multitrilha.mkv | video | concluido | multitrilha.txt | WER 0.0 | análise ffprobe | original intacto 
+    Aula de Cardiologia — Pré-eclâmpsia.mp4 | video | concluido | Aula de Cardiologia — Pré-eclâmpsia.txt | WER 0.0 | análise ffprobe | original intacto 
+    sem_audio.mp4 | video | erro | - | WER None | análise ffprobe | original intacto | Vídeo sem trilha de áudio: não há o que transcrever.
+    incompleto.mkv | video | concluido | incompleto.txt | WER None | análise ffprobe | original intacto 
+    lixo.mp4 | video | erro | - | WER None | análise None | original intacto | Não foi possível ler lixo.mp4: arquivo danificado ou formato não suportado. Em MP4/MOV isso costuma indicar gr
+    avisos: ['incompleto.mkv: arquivo incompleto ou danificado — foi possível ler 00:03:03 de 00:05:07. O texto cobrirá apenas a parte legível.']
+    leitura alternativa pelo ffmpeg.exe: {'segundos': 305.3, 'correlacao': 1.0} | tempo total 27.1 s
+5) Desinstalação: pasta do programa removida; entradas no registro = 0; atalhos 0 restantes; dados do usuário mantidos (8 arquivos)

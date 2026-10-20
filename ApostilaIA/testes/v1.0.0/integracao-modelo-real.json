@@ -1,0 +1,20 @@
+{
+  "segundos": 742.4,
+  "pdf": "<trabalho>/integ/saida/Apostila_Final.pdf",
+  "paginas": 7,
+  "palavras": 98,
+  "backend": [
+    "cpu"
+  ],
+  "aceleracao": "CPU (2 threads)",
+  "gpu_verificada": false,
+  "chamadas": 10,
+  "tokens_gerados": 6278,
+  "tok_s": 9.7,
+  "prompt_tok_s": 46.9,
+  "removidas": 0,
+  "parciais": 0,
+  "status": [
+    "Carregando GGUF de teste (tinyllama.gguf) (CPU)…"
+  ]
+}

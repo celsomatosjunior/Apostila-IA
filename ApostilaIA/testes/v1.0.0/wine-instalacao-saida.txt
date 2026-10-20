@@ -1,0 +1,44 @@
+== Instala√ß√£o silenciosa
+  [OK] ApostilaIA.exe
+  [OK] ApostilaIA-cli.exe
+  [OK] python312.dll
+  [OK] app/ApostilaIA.py
+  [OK] llama/vulkan/llama-server.exe
+  [OK] llama/cpu/llama-server.exe
+  [OK] Desinstalar.exe
+  [OK] app/assets/fonts/IBMPlexSerif-Regular.ttf
+  [OK] registro de desinstala√ß√£o (vers√£o 1.0.0)
+  [OK] atalho no Menu Iniciar
+== Diagn√≥stico (programa instalado)
+     ApostilaIA 1.0.0
+     CPU: Intel(R) Xeon(R) Processor @ 2.80GHz (2 n˙cleos / 2 threads)
+     RAM: 8 GB (7.1 GB livres)
+     GPU: Wine Adapter (1 GB, integrada)
+     Recursos da CPU: SSE4.1, SSE4.2, AVX, AVX2
+     Conjunto de modelos recomendado: C ó Leve (8 GB de RAM: modelo leve de 4B)
+       Qwen3-VL 4B Instruct (Q4_K_M) + vis„o: n„o instalado (2.7 GB)
+     2026-10-19 04:24:04,554 [WARNING] apostila.runtime: Falha ao listar dispositivos (C:\Program Files\ApostilaIA\llama\vulkan\llama-server.exe): Command '['C:\\Program Files\\ApostilaIA\\llama\\vulkan\\llama-server.exe', '--list-devices']' timed out after 30.0 seconds
+     llama.cpp b11435 [vulkan]: nenhum dispositivo de GPU (CPU disponÌvel)
+     2026-10-19 04:24:34,576 [WARNING] apostila.runtime: Falha ao listar dispositivos (C:\Program Files\ApostilaIA\llama\cpu\llama-server.exe): Command '['C:\\Program Files\\ApostilaIA\\llama\\cpu\\llama-server.exe', '--list-devices']' timed out after 30.0 seconds
+     llama.cpp b11435 [cpu]: nenhum dispositivo de GPU (CPU disponÌvel)
+  [OK] execut√°vel abre e detecta o hardware
+== Gera√ß√£o completa no Windows Python (simulador extrativo, sem modelo)
+     [ 98.8%] Gerando PDF e DOCX ó DOCX composto (faltam ~0 min) | CPU (simulador de testes)
+     [ 99.9%] Gerando PDF e DOCX ó ConcluÌdo | CPU (simulador de testes)
+     PDF: Z:\tmp\claude-0\-home-claude\250481b8-890e-5e36-8fe9-af72d954eea5\scratchpad\winetest\saida\Apostila_Final.pdf (9 p·ginas)
+     DOCX: Z:\tmp\claude-0\-home-claude\250481b8-890e-5e36-8fe9-af72d954eea5\scratchpad\winetest\saida\Apostila_Final.docx
+     RelatÛrio: Z:\tmp\claude-0\-home-claude\250481b8-890e-5e36-8fe9-af72d954eea5\scratchpad\winetest\saida\Relatorio_de_Fidelidade.pdf
+  [OK] Apostila_Final.pdf gerado no Windows Python
+  [OK] Apostila_Final.docx gerado no Windows Python
+  [OK] Relatorio_de_Fidelidade.pdf gerado no Windows Python
+     PDF: 9 p√°ginas; 16 marcadores
+  [OK] PDF/DOCX v√°lidos
+== llama-server.exe (Windows, CPU) com modelo GGUF real
+     resposta: {"index":0,"content":"{\"itens\"\n\n    :\n    [\n        \"Lis\",\n        \"Lis\"\n    ]\n\n    }","tokens":[],"id_slot":0,"stop":true,"model":"Z:/tmp/claude-0/-home-claude/250481b8-890e-5e36-8fe9-a
+  [OK] llama-server.exe gerou JSON v√°lido (gram√°tica) no Windows/Wine
+== Desinstala√ß√£o silenciosa
+  [OK] arquivos do programa removidos
+  [OK] registro removido
+  [OK] atalho removido
+  [OK] apostilas do usu√°rio preservadas
+== Resultado: 0 falha(s)

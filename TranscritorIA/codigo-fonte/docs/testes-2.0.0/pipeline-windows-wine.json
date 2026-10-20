@@ -1,0 +1,188 @@
+{
+ "tempo_s": 27.1,
+ "arquivos": [
+  {
+   "arquivo": "aula_5min.mp3",
+   "tipo": "audio",
+   "status": "concluido",
+   "saida": [
+    "aula_5min.txt"
+   ],
+   "wer": 0.0,
+   "analise": "ffprobe",
+   "erro": "",
+   "original_intacto": true
+  },
+  {
+   "arquivo": "aula_5min.mp4",
+   "tipo": "video",
+   "status": "concluido",
+   "saida": [
+    "aula_5min (2).txt"
+   ],
+   "wer": 0.0,
+   "analise": "ffprobe",
+   "erro": "",
+   "original_intacto": true
+  },
+  {
+   "arquivo": "aula_5min.mkv",
+   "tipo": "video",
+   "status": "concluido",
+   "saida": [
+    "aula_5min (3).txt"
+   ],
+   "wer": 0.0,
+   "analise": "ffprobe",
+   "erro": "",
+   "original_intacto": true
+  },
+  {
+   "arquivo": "aula_5min.avi",
+   "tipo": "video",
+   "status": "concluido",
+   "saida": [
+    "aula_5min (4).txt"
+   ],
+   "wer": 0.0,
+   "analise": "ffprobe",
+   "erro": "",
+   "original_intacto": true
+  },
+  {
+   "arquivo": "aula_5min.mov",
+   "tipo": "video",
+   "status": "concluido",
+   "saida": [
+    "aula_5min (5).txt"
+   ],
+   "wer": 0.0,
+   "analise": "ffprobe",
+   "erro": "",
+   "original_intacto": true
+  },
+  {
+   "arquivo": "aula_5min.wmv",
+   "tipo": "video",
+   "status": "concluido",
+   "saida": [
+    "aula_5min (6).txt"
+   ],
+   "wer": 0.0,
+   "analise": "ffprobe",
+   "erro": "",
+   "original_intacto": true
+  },
+  {
+   "arquivo": "aula_5min.webm",
+   "tipo": "video",
+   "status": "concluido",
+   "saida": [
+    "aula_5min (7).txt"
+   ],
+   "wer": 0.0,
+   "analise": "ffprobe",
+   "erro": "",
+   "original_intacto": true
+  },
+  {
+   "arquivo": "aula_5min.mpg",
+   "tipo": "video",
+   "status": "concluido",
+   "saida": [
+    "aula_5min (8).txt"
+   ],
+   "wer": 0.0,
+   "analise": "ffprobe",
+   "erro": "",
+   "original_intacto": true
+  },
+  {
+   "arquivo": "aula_5min.m4v",
+   "tipo": "video",
+   "status": "concluido",
+   "saida": [
+    "aula_5min (9).txt"
+   ],
+   "wer": 0.0,
+   "analise": "ffprobe",
+   "erro": "",
+   "original_intacto": true
+  },
+  {
+   "arquivo": "aula_5min.flv",
+   "tipo": "video",
+   "status": "concluido",
+   "saida": [
+    "aula_5min (10).txt"
+   ],
+   "wer": 0.0,
+   "analise": "ffprobe",
+   "erro": "",
+   "original_intacto": true
+  },
+  {
+   "arquivo": "multitrilha.mkv",
+   "tipo": "video",
+   "status": "concluido",
+   "saida": [
+    "multitrilha.txt"
+   ],
+   "wer": 0.0,
+   "analise": "ffprobe",
+   "erro": "",
+   "original_intacto": true
+  },
+  {
+   "arquivo": "Aula de Cardiologia — Pré-eclâmpsia.mp4",
+   "tipo": "video",
+   "status": "concluido",
+   "saida": [
+    "Aula de Cardiologia — Pré-eclâmpsia.txt"
+   ],
+   "wer": 0.0,
+   "analise": "ffprobe",
+   "erro": "",
+   "original_intacto": true
+  },
+  {
+   "arquivo": "sem_audio.mp4",
+   "tipo": "video",
+   "status": "erro",
+   "saida": [],
+   "wer": null,
+   "analise": "ffprobe",
+   "erro": "Vídeo sem trilha de áudio: não há o que transcrever.",
+   "original_intacto": true
+  },
+  {
+   "arquivo": "incompleto.mkv",
+   "tipo": "video",
+   "status": "concluido",
+   "saida": [
+    "incompleto.txt"
+   ],
+   "wer": null,
+   "analise": "ffprobe",
+   "erro": "",
+   "original_intacto": true
+  },
+  {
+   "arquivo": "lixo.mp4",
+   "tipo": "video",
+   "status": "erro",
+   "saida": [],
+   "wer": null,
+   "analise": null,
+   "erro": "Não foi possível ler lixo.mp4: arquivo danificado ou formato não suportado. Em MP4/MOV isso costuma indicar gravação int",
+   "original_intacto": true
+  }
+ ],
+ "avisos": [
+  "incompleto.mkv: arquivo incompleto ou danificado — foi possível ler 00:03:03 de 00:05:07. O texto cobrirá apenas a parte legível."
+ ],
+ "ffmpeg_exe_fallback": {
+  "segundos": 305.3,
+  "correlacao": 1.0
+ }
+}

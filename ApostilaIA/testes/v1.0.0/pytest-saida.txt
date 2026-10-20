@@ -1,0 +1,55 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.16, pytest-9.1.1, pluggy-1.7.0 -- /usr/bin/python3
+rootdir: /home/claude/ApostilaIA
+plugins: anyio-4.15.1
+collecting ... collected 26 items
+
+tests/test_modulos.py::test_transcricao_formatos PASSED                  [  3%]
+tests/test_modulos.py::test_paragrafo_gigante_dividido PASSED            [  7%]
+tests/test_modulos.py::test_json_tolerante_e_truncado PASSED             [ 11%]
+tests/test_modulos.py::test_checkpoint_integridade PASSED                [ 15%]
+tests/test_modulos.py::test_alinhamento_nao_forca PASSED                 [ 19%]
+tests/test_modulos.py::test_termos_so_com_slide PASSED                   [ 23%]
+tests/test_modulos.py::test_numeros PASSED                               [ 26%]
+tests/test_modulos.py::test_oralidade PASSED                             [ 30%]
+tests/test_obrigatorios.py::test_01_txt_curto_pdf_simples PASSED         [ 34%]
+tests/test_obrigatorios.py::test_02_aula_com_varios_pdfs PASSED          [ 38%]
+tests/test_obrigatorios.py::test_03_04_transcricoes_longas[130-240] PASSED [ 42%]
+tests/test_obrigatorios.py::test_03_04_transcricoes_longas[300-600] PASSED [ 46%]
+tests/test_obrigatorios.py::test_05_slides_com_muitas_imagens PASSED     [ 50%]
+tests/test_obrigatorios.py::test_06_slides_com_ultrassonografias PASSED  [ 53%]
+tests/test_obrigatorios.py::test_07_pdf_com_pouco_texto_extraivel PASSED [ 57%]
+tests/test_obrigatorios.py::test_08_tabelas_e_esquemas PASSED            [ 61%]
+tests/test_obrigatorios.py::test_09_terminologia_medica PASSED           [ 65%]
+tests/test_obrigatorios.py::test_10_geracao_pdf PASSED                   [ 69%]
+tests/test_obrigatorios.py::test_11_geracao_docx PASSED                  [ 73%]
+tests/test_obrigatorios.py::test_12_retomada_apos_interrupcao PASSED     [ 76%]
+tests/test_obrigatorios.py::test_12b_pausa_e_continua PASSED             [ 80%]
+tests/test_obrigatorios.py::test_13_funcionamento_offline PASSED         [ 84%]
+tests/test_obrigatorios.py::test_13b_modelo_local_real_offline PASSED    [ 88%]
+tests/test_obrigatorios.py::test_14_gpu_so_declarada_quando_verificada PASSED [ 92%]
+tests/test_obrigatorios.py::test_15_instalador_windows_documentado PASSED [ 96%]
+tests/test_obrigatorios.py::test_16_fidelidade_transcricao_slides_apostila PASSED [100%]
+
+============================== slowest durations ===============================
+53.69s call     tests/test_obrigatorios.py::test_13b_modelo_local_real_offline
+9.62s call     tests/test_obrigatorios.py::test_05_slides_com_muitas_imagens
+5.03s call     tests/test_obrigatorios.py::test_03_04_transcricoes_longas[300-600]
+3.83s call     tests/test_obrigatorios.py::test_12_retomada_apos_interrupcao
+3.38s call     tests/test_obrigatorios.py::test_03_04_transcricoes_longas[130-240]
+3.28s call     tests/test_obrigatorios.py::test_06_slides_com_ultrassonografias
+1.94s call     tests/test_obrigatorios.py::test_11_geracao_docx
+1.89s call     tests/test_obrigatorios.py::test_16_fidelidade_transcricao_slides_apostila
+1.80s call     tests/test_obrigatorios.py::test_10_geracao_pdf
+1.65s call     tests/test_obrigatorios.py::test_02_aula_com_varios_pdfs
+1.18s call     tests/test_obrigatorios.py::test_13_funcionamento_offline
+1.12s call     tests/test_obrigatorios.py::test_12b_pausa_e_continua
+1.01s call     tests/test_obrigatorios.py::test_08_tabelas_e_esquemas
+1.00s call     tests/test_obrigatorios.py::test_09_terminologia_medica
+0.78s call     tests/test_obrigatorios.py::test_07_pdf_com_pouco_texto_extraivel
+0.56s call     tests/test_obrigatorios.py::test_01_txt_curto_pdf_simples
+0.02s call     tests/test_obrigatorios.py::test_14_gpu_so_declarada_quando_verificada
+0.01s call     tests/test_modulos.py::test_checkpoint_integridade
+
+(60 durations < 0.005s hidden.  Use -vv to show these durations.)
+======================== 26 passed in 92.01s (0:01:32) =========================

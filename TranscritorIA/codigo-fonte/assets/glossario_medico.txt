@@ -1,0 +1,51 @@
+# Glossário médico do Transcritor IA — um termo por linha.
+# Os primeiros termos têm prioridade (o Whisper aceita um prompt curto).
+# Edite à vontade: coloque no topo os termos que mais aparecem nas suas aulas.
+pré-natal
+pré-eclâmpsia
+eclâmpsia
+síndrome HELLP
+diabetes mellitus gestacional
+DUM
+DPP
+idade gestacional
+ultrassonografia
+Doppler
+artéria umbilical
+artéria cerebral média
+índice de pulsatilidade
+translucência nucal
+morfológico
+biometria fetal
+CIUR
+oligoidrâmnio
+polidrâmnio
+placenta prévia
+descolamento prematuro de placenta
+amniorrexe
+cardiotocografia
+sulfato de magnésio
+corticoide antenatal
+betametasona
+ocitocina
+misoprostol
+hemorragia pós-parto
+cesariana
+episiotomia
+partograma
+Apgar
+Rh negativo
+imunoglobulina anti-D
+toxoplasmose
+sífilis
+HIV
+TSH
+hemoglobina glicada
+TOTG
+miocárdio
+endométrio
+colo uterino
+hipertensão arterial
+anticoagulação
+heparina
+farmacocinética

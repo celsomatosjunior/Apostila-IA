@@ -1,0 +1,2 @@
+b7e5643312d4d241cb883bb59d9db61a9e23f6786038d87da21b680c29b5b356  TranscritorIA-1.0.0-backup-fonte.zip
+d97145b9e0878cbd02659803e5b8517b64d466718eaff30637c66a3471a01acd  TranscritorIA-Setup-1.0.0.exe

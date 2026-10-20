@@ -1,0 +1,958 @@
+{
+  "checagens": [
+    {
+      "n": 1,
+      "item": "Principais assuntos da aula preservados",
+      "resultado": "6/6 trechos com cobertura ≥ 60%",
+      "ok": true
+    },
+    {
+      "n": 2,
+      "item": "Exemplos importantes presentes",
+      "resultado": "5/5 exemplos identificados na apostila",
+      "ok": true
+    },
+    {
+      "n": 3,
+      "item": "Observações clínicas incluídas",
+      "resultado": "60/60 observações/dicas/alertas; 0 reinseridas pela auditoria",
+      "ok": true
+    },
+    {
+      "n": 4,
+      "item": "Sem informações externas",
+      "resultado": "1 frase(s) sem suporte removida(s); 0 parcial(is) para conferência; 1 número(s) sem fonte",
+      "ok": false
+    },
+    {
+      "n": 5,
+      "item": "Slides corretamente associados",
+      "resultado": "5 slides associados à fala, 8 por posição, 0 sem associação; 0 trecho(s) da fala sem slide correspondente (não forçado)",
+      "ok": true
+    },
+    {
+      "n": 6,
+      "item": "Sem parágrafos duplicados",
+      "resultado": "129 duplicata(s) removida(s)",
+      "ok": true
+    },
+    {
+      "n": 7,
+      "item": "Português",
+      "resultado": "0 marca(s) de oralidade restante(s); 0 frase(s) muito longa(s)",
+      "ok": true
+    },
+    {
+      "n": 8,
+      "item": "Tabelas e figuras legíveis",
+      "resultado": "1 tabela(s) (0 com 6 colunas), 4 figura(s) em 160 dpi",
+      "ok": true
+    },
+    {
+      "n": 9,
+      "item": "Esquemas fiéis às fontes",
+      "resultado": "0 esquema(s); 0 descartado(s) por falta de sustentação",
+      "ok": true
+    },
+    {
+      "n": 10,
+      "item": "Objetiva e agradável para estudo",
+      "resultado": "898 palavras (referência do perfil: ~1584; fala: 5283 palavras)",
+      "ok": true
+    }
+  ],
+  "removidas": [
+    {
+      "capitulo": 1,
+      "frase": "Segundo diretrizes internacionais recentes, recomenda-se repetir o exame com ressonância magnética fetal em 97% dos casos.",
+      "comentario": "termos ausentes das fontes",
+      "cobertura": 0.36
+    }
+  ],
+  "parciais": [],
+  "duplicados": [
+    {
+      "capitulo": 1,
+      "texto": "Alguém perguntou sobre isso no intervalo. bom, pessoal, vamos começar falando do sítios solitus, que é o arranjo habitual dos órgãos. O átrio morfologicamente direito fica à direita e o estômago fica à esquerda, (revisão",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Vejam bem, uma coisa importante: o eixo cardíaco normal fica entre 25 e 65 graus.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Se o eixo estiver fora disso, a gente tem que olhar, com mais cuidado, porque isso pode indicar alguma alteração.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "É uma dica que facilita muito o exame no dia a dia.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Alguém perguntou sobre isso no intervalo. já o sítios inversus é a imagem em espelho do sítios solitus. Então o estômago vai estar à direita e, o átrio morfologicamente direito vai estar à esquerda.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Esse é um erro frequente: se você não conferir a posição fetal antes, pode achar que é inversus quando não é.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Vejam bem, no sítios ambíguo a gente fala de isomerismo., No isomerismo direito geralmente tem asplenia, e no isomerismo esquerdo tem poliesplenia.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Alguém perguntou sobre isso no intervalo. a interrupção da veia cava inferior no isomerismo esquerdo acontece em 90% dos casos, então quando você vê a continuação pela ázigos, pensa em isomerismo esquerdo.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Vejam bem, por exemplo, teve um caso que eu atendi de uma gestante de 22 semanas em que a primeira pista foi justamente, a ázigos dilatada ao lado da aorta.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Vejam bem, uma coisa importante: o eixo cardíaco normal fica entre 25 e 65 graus.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Se o eixo estiver fora disso, a gente tem que olhar com mais cuidado, porque isso pode indicar alguma alteração.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "É uma dica que facilita muito o exame no dia a dia.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Voltando ao que eu falei antes, já o sítios inversus é a imagem em espelho do sítios solitus. Então o estômago vai estar à direita e o átrio, morfologicamente direito vai estar à esquerda.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Voltando ao que eu falei antes, cuidado para não confundir com erro de lateralidade, do transdutor.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Esse é um erro frequente: se você não conferir a posição fetal antes, pode achar que é inversus quando não é.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Alguém perguntou sobre isso no intervalo. no sítios ambíguo a gente fala de isomerismo. No isomerismo direito geralmente tem asplenia, e no isomerismo esquerdo tem poliesplenia.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Voltando ao que eu falei antes, a interrupção da veia cava inferior no isomerismo esquerdo acontece em 90% dos casos, então quando você vê a continuação pela ázigos, pensa em isomerismo esquerdo.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Vejam bem, por exemplo, teve um caso que eu atendi de uma gestante de 22, semanas em que a primeira pista foi justamente a ázigos dilatada ao lado da aorta.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Voltando ao que eu falei antes, agora vamos diferenciar destroposição de destrocardia. Na dextroposição o coração está deslocado, para a direita, mas o ápice continua apontando para a esquerda.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Alguém perguntou sobre isso no intervalo. as causas de dextroposição que a gente mais vê são hérnia diafragmática e derrame, pleural, que empurram o coração.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Vejam bem, então a sequência que eu ensino é: primeiro o situs, depois a posição cardíaca, em seguida as conexões venosas, depois as conexões atrioventriculares e por último as conexões ventriculoarteriais.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Alguém perguntou sobre isso no intervalo. bom, pessoal, vamos começar falando do sítios solitus, que é o arranjo habitual dos órgãos. O átrio morfologicamente, direito fica à direita e o estômago fica à esquerda, (revisã",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Vejam bem, uma coisa importante: o eixo cardíaco normal fica entre 25 e 65 graus.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Se o eixo estiver fora disso, a gente tem que olhar com mais cuidado, porque isso pode indicar alguma alteração.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Voltando ao que eu falei antes, na prática eu, sempre começo identificando o estômago, depois a posição do coração.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "É uma dica que facilita muito o exame no dia a dia.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Esse é, um erro frequente: se você não conferir a posição fetal antes, pode achar que é inversus quando não é.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Voltando ao que eu falei antes, no sítios ambíguo a gente fala de isomerismo. No isomerismo direito geralmente tem asplenia, e no isomerismo esquerdo tem poliesplenia.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Voltando ao que eu falei antes, a interrupção da veia cava, inferior no isomerismo esquerdo acontece em 90% dos casos, então quando você vê a continuação pela ázigos, pensa em isomerismo esquerdo.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Vejam bem, por exemplo, teve um caso que eu atendi de uma gestante de 22 semanas em que a primeira pista foi justamente a ázigos dilatada ao lado da aorta.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Voltando ao que eu falei antes, bom, pessoal, vamos começar falando do sítios solitus, que é o arranjo habitual dos órgãos. O átrio morfologicamente direito fica à direita e, o estômago fica à esquerda, (revisão 5)",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Se o eixo estiver fora disso, a gente tem que olhar com mais cuidado, porque isso pode indicar alguma alteração.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: na prática eu sempre começo identificando o estômago, depois a posição do coração.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "É uma, dica que facilita muito o exame no dia a dia.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Alguém perguntou sobre isso no intervalo. já o sítios inversus é a imagem em espelho do sítios solitus. Então, o estômago vai estar à direita e o átrio morfologicamente direito vai estar à esquerda.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Esse é um erro frequente: se você não conferir a posição fetal antes, pode achar que é inversus quando não é.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Voltando ao que eu falei antes, no sítios ambíguo a gente fala de isomerismo. No isomerismo direito geralmente tem asplenia, e no isomerismo esquerdo tem poliesplenia.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Vejam bem, a interrupção da veia cava inferior no isomerismo esquerdo acontece em 90% dos casos, então quando você vê a continuação pela ázigos, pensa em isomerismo esquerdo.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Alguém perguntou sobre isso no intervalo. por exemplo, teve um caso que eu atendi de uma gestante de 22 semanas em que a primeira pista foi justamente a ázigos dilatada ao lado da aorta.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Alguém perguntou sobre isso no intervalo. agora vamos diferenciar destroposição, de destrocardia. Na dextroposição o coração está deslocado para a direita, mas o ápice continua apontando para a esquerda.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Voltando ao que eu falei antes, na destrocardia o próprio ápice aponta para a direita. Então o, que define é para onde aponta o ápice.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Voltando ao que eu falei antes, as causas de dextroposição que a gente mais vê são hérnia diafragmática e derrame pleural, que empurram o coração.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Voltando ao que eu falei antes, então a sequência que eu ensino é: primeiro o situs, depois a posição, cardíaca, em seguida as conexões venosas, depois as conexões atrioventriculares e por último as conexões ventriculoar",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Alguém perguntou sobre isso no intervalo. se você seguir sempre essa ordem, você não esquece nenhuma etapa. É, o passo a passo da análise sequencial segmentar.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: em alguns casos o bebê vai precisar do RASC logo depois do nascimento, que é a atriosseptostomia, para ampliar a comunicação interatrial.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Vejam bem, observem que isso muda o planejamento do parto, que, deve acontecer num centro com cardiologia pediátrica.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Alguém perguntou sobre isso no intervalo. bom, pessoal, vamos começar falando do sítios solitus, que é o arranjo habitual dos órgãos. O átrio morfologicamente direito fica à direita e o estômago fica à esquerda, (revisão",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Se o eixo estiver fora disso, a gente tem que olhar com mais cuidado, porque isso pode indicar alguma alteração.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: na prática eu sempre começo identificando o estômago, depois a posição do coração.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "É uma dica que facilita muito o exame, no dia a dia.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 1,
+      "texto": "Alguém perguntou sobre isso no intervalo. já o sítios inversus é a imagem em espelho do sítios solitus. Então o estômago vai estar à direita e o átrio morfologicamente direito vai estar à esquerda.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Agora vamos diferenciar destroposição de destrocardia. Na dextroposição o coração está deslocado para a direita, mas o ápice continua apontando para a esquerda.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Na destrocardia o próprio ápice aponta para a direita. Então o que define é para onde aponta o ápice.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "As causas de dextroposição, que a gente mais vê são hérnia diafragmática e derrame pleural, que empurram o coração.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Então a sequência que eu ensino é: primeiro o situs, depois a posição cardíaca, em seguida as conexões venosas, depois as conexões atrioventriculares e por último as conexões ventriculoarteriais.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Se você seguir sempre essa ordem, você não esquece nenhuma etapa. É o passo a passo da análise sequencial segmentar.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Em alguns casos o bebê vai precisar do RASC logo depois do nascimento, que é a atriosseptostomia, para ampliar a comunicação interatrial.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Segundo diretrizes internacionais recentes, recomenda-se repetir o exame com ressonância magnética fetal em 97% dos casos.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Observem que isso muda o planejamento do parto, que deve acontecer num, centro com cardiologia pediátrica.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Alguém perguntou sobre isso no intervalo. agora vamos diferenciar destroposição de destrocardia. Na dextroposição o coração está deslocado para a direita, mas o ápice continua apontando para a esquerda.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Vejam bem, na destrocardia o próprio ápice aponta para a direita.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Voltando ao que eu falei antes, as causas de dextroposição que a gente mais vê são hérnia diafragmática e derrame pleural, que empurram o coração.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Vejam bem, então a sequência que eu ensino é: primeiro o situs, depois a posição cardíaca, em seguida as conexões venosas, depois as conexões atrioventriculares e por último as conexões ventriculoarteriais.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: se você seguir sempre essa ordem, você não esquece nenhuma etapa. É o passo a passo da análise sequencial segmentar.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Voltando ao que eu falei antes, em alguns casos o bebê vai precisar do RASC logo depois do nascimento, que é a atriosseptostomia, para ampliar a comunicação interatrial.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Vejam bem, observem que isso muda o planejamento do parto, que deve acontecer num centro com cardiologia pediátrica.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Alguém perguntou sobre isso no intervalo. agora vamos diferenciar destroposição de destrocardia. Na dextroposição o coração está deslocado para a direita, mas o ápice continua apontando para a esquerda.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Alguém perguntou sobre isso no intervalo. na destrocardia o próprio ápice aponta para a direita. Então o que define é para onde aponta o ápice.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Alguém perguntou sobre isso no intervalo. as causas de dextroposição que, a gente mais vê são hérnia diafragmática e derrame pleural, que empurram o coração.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Alguém perguntou sobre isso no intervalo. então a sequência que eu ensino é: primeiro o situs, depois a posição cardíaca, em seguida as conexões venosas, depois as conexões atrioventriculares e por último as conexões ven",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Voltando ao que eu falei antes, em alguns casos o bebê vai precisar do RASC logo depois do nascimento, que é a atriosseptostomia, para ampliar a comunicação interatrial.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Voltando ao que eu falei antes, observem que isso muda o planejamento do parto, que deve acontecer num centro com cardiologia pediátrica.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Então o que define é para onde aponta o ápice.",
+      "igual_a_capitulo": 2
+    },
+    {
+      "capitulo": 2,
+      "texto": "Vejam bem, na destrocardia o próprio ápice aponta para a direita.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Alguém perguntou sobre isso no intervalo. as causas de dextroposição que a gente mais vê são hérnia diafragmática e derrame pleural, que empurram o coração.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Voltando ao que eu falei antes, então a sequência que eu ensino é: primeiro o situs, depois a posição cardíaca, em seguida as conexões, venosas, depois as conexões atrioventriculares e por último as conexões ventriculoar",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "É o passo a passo da análise sequencial segmentar.",
+      "igual_a_capitulo": 2
+    },
+    {
+      "capitulo": 2,
+      "texto": "Vejam bem, se você seguir sempre essa ordem, você não esquece nenhuma etapa.",
+      "igual_a_capitulo": 2
+    },
+    {
+      "capitulo": 2,
+      "texto": "Vejam bem, em alguns casos o bebê vai precisar do RASC logo depois do nascimento, que é a atriosseptostomia, para ampliar a comunicação interatrial.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Vejam bem, observem que isso muda o planejamento do parto, que deve acontecer, num centro com cardiologia pediátrica.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Voltando ao que eu falei antes, agora vamos diferenciar destroposição de destrocardia. Na dextroposição o coração está deslocado para a direita, mas o ápice continua apontando para a esquerda.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Alguém perguntou sobre isso no intervalo. na destrocardia o próprio ápice aponta para a direita. Então o que define é para onde aponta o ápice.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Voltando ao que eu falei antes, as causas de dextroposição que a gente mais vê são hérnia diafragmática e derrame pleural, que empurram o coração.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Vejam bem, então a sequência que eu ensino é: primeiro o situs, depois a posição cardíaca, em seguida as conexões venosas, depois as conexões atrioventriculares e por último as conexões ventriculoarteriais.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "É o passo a, passo da análise sequencial segmentar.",
+      "igual_a_capitulo": 2
+    },
+    {
+      "capitulo": 2,
+      "texto": "Vejam bem, se você seguir sempre essa ordem, você não esquece nenhuma etapa.",
+      "igual_a_capitulo": 2
+    },
+    {
+      "capitulo": 2,
+      "texto": "Voltando ao que eu falei antes, em alguns casos o bebê vai precisar do RASC, logo depois do nascimento, que é a atriosseptostomia, para ampliar a comunicação interatrial.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Voltando ao que eu falei antes, agora vamos diferenciar destroposição de destrocardia. Na dextroposição o coração está deslocado para a direita, mas o ápice continua apontando para a esquerda.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Alguém perguntou sobre isso no intervalo. na destrocardia o próprio ápice aponta para a direita. Então o que define é para onde aponta o ápice.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Voltando ao que eu falei antes, então a sequência que eu ensino é: primeiro o situs, depois a posição cardíaca, em seguida as conexões venosas, depois as conexões atrioventriculares, e por último as conexões ventriculoar",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: se você seguir sempre essa ordem, você não esquece nenhuma etapa. É o passo a passo da análise sequencial segmentar.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Alguém perguntou sobre isso no intervalo. em alguns casos o bebê vai precisar do RASC logo depois do nascimento, que é a atriosseptostomia, para ampliar a comunicação interatrial.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Alguém perguntou sobre isso no intervalo. observem que isso muda o planejamento do parto, que deve acontecer num centro com cardiologia pediátrica.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: agora vamos diferenciar destroposição de destrocardia. Na dextroposição o coração está deslocado para a direita, mas o ápice continua apontando para a esqu",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: na destrocardia o próprio ápice aponta para a direita. Então o que define é, para onde aponta o ápice.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: as causas de dextroposição que, a gente mais vê são hérnia diafragmática e derrame pleural, que empurram o coração.",
+      "igual_a_capitulo": 2
+    },
+    {
+      "capitulo": 2,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: então a sequência que eu, ensino é: primeiro o situs, depois a posição cardíaca, em seguida as conexões venosas, depois as conexões atrioventriculares e po",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: se você seguir sempre essa ordem, você não esquece nenhuma etapa. É o passo a passo da análise sequencial segmentar.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Alguém perguntou sobre isso no intervalo. em alguns casos o bebê vai precisar, do RASC logo depois do nascimento, que é a atriosseptostomia, para ampliar a comunicação interatrial.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: observem que isso muda o planejamento do parto, que deve acontecer num centro com cardiologia pediátrica.",
+      "igual_a_capitulo": 2
+    },
+    {
+      "capitulo": 2,
+      "texto": "Alguém perguntou sobre isso no intervalo. agora vamos diferenciar destroposição, de destrocardia. Na dextroposição o coração está deslocado para a direita, mas o ápice continua apontando para a esquerda.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: na destrocardia o próprio ápice aponta para a direita. Então o que define é para onde aponta o ápice.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Voltando ao que eu falei antes, as causas de dextroposição que a gente mais vê são hérnia diafragmática, e derrame pleural, que empurram o coração.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Vejam bem, então a sequência, que eu ensino é: primeiro o situs, depois a posição cardíaca, em seguida as conexões venosas, depois as conexões atrioventriculares e por último as conexões ventriculoarteriais.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: se você seguir sempre essa ordem, você não esquece nenhuma etapa. É o passo a passo da análise sequencial segmentar.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Vejam bem, em alguns casos o bebê vai precisar do RASC logo depois do nascimento, que é a atriosseptostomia, para ampliar a comunicação interatrial.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Alguém perguntou sobre isso no intervalo. observem que isso muda o planejamento do parto, que deve acontecer num centro com cardiologia pediátrica.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Voltando ao que eu falei antes, agora vamos diferenciar destroposição de destrocardia. Na dextroposição o coração, está deslocado para a direita, mas o ápice continua apontando para a esquerda.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: na destrocardia o próprio ápice aponta para a direita. Então o que define é para onde aponta o ápice.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Vejam bem, as causas de dextroposição que a gente mais vê são hérnia diafragmática e derrame pleural, que, empurram o coração.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Voltando ao que eu falei antes, então a sequência que eu ensino é: primeiro o situs, depois a posição, cardíaca, em seguida as conexões venosas, depois as conexões atrioventriculares e por último as conexões ventriculoar",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: se você seguir sempre essa ordem, você não esquece nenhuma etapa. É, o passo a passo da análise sequencial segmentar.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Alguém perguntou sobre isso no intervalo. em alguns casos o bebê vai precisar do RASC logo depois do nascimento, que é a atriosseptostomia, para ampliar a comunicação interatrial.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Voltando ao que eu falei antes, observem que isso muda o planejamento do parto, que deve acontecer num centro com cardiologia pediátrica.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: agora vamos diferenciar destroposição de destrocardia. Na dextroposição, o coração está deslocado para a direita, mas o ápice continua apontando para a esq",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: na destrocardia o próprio ápice aponta, para a direita. Então o que define é para onde aponta o ápice.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Alguém perguntou sobre isso no intervalo. as causas de dextroposição que a gente mais vê são hérnia diafragmática e derrame pleural, que empurram o coração.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: então a sequência que eu ensino é: primeiro o situs, depois a posição cardíaca, em seguida as conexões venosas, depois as conexões atrioventriculares e por",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Voltando ao que eu falei antes, se você seguir sempre essa ordem, você não esquece nenhuma etapa. É, o passo a passo da análise sequencial segmentar.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: em alguns casos o bebê vai precisar do RASC logo depois do nascimento, que é a, atriosseptostomia, para ampliar a comunicação interatrial.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Alguém perguntou sobre isso no intervalo. observem que isso muda o planejamento do parto, que, deve acontecer num centro com cardiologia pediátrica.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: agora vamos diferenciar destroposição de, destrocardia. Na dextroposição o coração está deslocado para a direita, mas o ápice continua apontando para a esq",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: na destrocardia o próprio ápice, aponta para a direita. Então o que define é para onde aponta o ápice.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Vejam bem, as causas de dextroposição que a gente mais vê são hérnia, diafragmática e derrame pleural, que empurram o coração.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Alguém perguntou sobre isso no intervalo. então a sequência que eu ensino é: primeiro o situs, depois a posição cardíaca, em seguida as conexões venosas, depois as conexões atrioventriculares, e por último as conexões ve",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Alguém perguntou sobre isso no intervalo. se você seguir sempre essa ordem, você não esquece nenhuma etapa. É o passo a passo da análise sequencial segmentar.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Vejam bem, em alguns casos o bebê vai precisar do RASC logo depois do nascimento, que é a atriosseptostomia, para ampliar a comunicação interatrial.",
+      "igual_a_capitulo": 1
+    },
+    {
+      "capitulo": 2,
+      "texto": "Repetindo esse ponto com outras palavras para quem chegou agora: observem que isso, muda o planejamento do parto, que deve acontecer num centro com cardiologia pediátrica.",
+      "igual_a_capitulo": 2
+    },
+    {
+      "capitulo": 2,
+      "texto": "Alguém perguntou sobre isso no intervalo. agora vamos diferenciar destroposição de destrocardia. Na dextroposição o coração está deslocado para a direita, mas o ápice continua apontando para a esquerda.",
+      "igual_a_capitulo": 1
+    }
+  ],
+  "reinseridas": [],
+  "numeros_sem_fonte": [
+    {
+      "capitulo": 1,
+      "frase": "Segundo diretrizes internacionais recentes, recomenda-se repetir o exame com ressonância magnética fetal em 97% dos casos.",
+      "numeros": [
+        "97%"
+      ]
+    }
+  ],
+  "esquemas_removidos": [],
+  "omissoes": [],
+  "divergencias": [
+    {
+      "assunto": "cava inferior interrupcao veia",
+      "fala": "90%",
+      "slide": "59–75%",
+      "onde": "Parte 1, §22, Parte 1, §37, Parte 1, §52, Parte 1, §82; Situs fetal slide 5",
+      "trecho_fala": "isso no intervalo. a interrupção da veia cava inferior no isomerismo esquerdo acontece em 90% dos casos, então quando você vê a continuação pela ázigos,",
+      "trecho_slide": "ireito: asplenia\n• Isomerismo esquerdo: poliesplenia\n• Interrupção da veia cava inferior: 59 – 75%"
+    }
+  ],
+  "termos_corrigidos": [],
+  "termos_conferir": [],
+  "termos_duvidosos_modelo": [],
+  "slides": [
+    {
+      "slide": "A1-p2",
+      "titulo": "Situs solitus",
+      "capitulo": 1,
+      "associacao": "fala",
+      "score": 0.3692,
+      "figura": false,
+      "citado": false,
+      "visao": true
+    },
+    {
+      "slide": "A1-p3",
+      "titulo": "",
+      "capitulo": 1,
+      "associacao": "posição",
+      "score": 0,
+      "figura": false,
+      "citado": false,
+      "visao": true
+    },
+    {
+      "slide": "A1-p4",
+      "titulo": "Malformações",
+      "capitulo": 1,
+      "associacao": "posição",
+      "score": 0,
+      "figura": false,
+      "citado": false,
+      "visao": true
+    },
+    {
+      "slide": "A1-p5",
+      "titulo": "Situs ambíguo e isomerismos",
+      "capitulo": 1,
+      "associacao": "fala",
+      "score": 0.2884,
+      "figura": false,
+      "citado": false,
+      "visao": true
+    },
+    {
+      "slide": "A1-p6",
+      "titulo": "Isomerismo esquerdo – ázigos",
+      "capitulo": 1,
+      "associacao": "fala",
+      "score": 0.2243,
+      "figura": true,
+      "citado": true,
+      "visao": true
+    },
+    {
+      "slide": "A1-p7",
+      "titulo": "Dextroposição",
+      "capitulo": 1,
+      "associacao": "posição",
+      "score": 0,
+      "figura": true,
+      "citado": true,
+      "visao": true
+    },
+    {
+      "slide": "A1-p8",
+      "titulo": "Isomerismos – comparação",
+      "capitulo": 1,
+      "associacao": "posição",
+      "score": 0,
+      "figura": false,
+      "citado": true,
+      "visao": true
+    },
+    {
+      "slide": "A2-p2",
+      "titulo": "",
+      "capitulo": 2,
+      "associacao": "posição",
+      "score": 0,
+      "figura": false,
+      "citado": false,
+      "visao": true
+    },
+    {
+      "slide": "A2-p3",
+      "titulo": "Sequência de avaliação",
+      "capitulo": 2,
+      "associacao": "fala",
+      "score": 0.3036,
+      "figura": false,
+      "citado": false,
+      "visao": true
+    },
+    {
+      "slide": "A2-p4",
+      "titulo": "Malformações",
+      "capitulo": 2,
+      "associacao": "posição",
+      "score": 0,
+      "figura": false,
+      "citado": false,
+      "visao": true
+    },
+    {
+      "slide": "A2-p5",
+      "titulo": "Atriosseptostomia de Rashkind",
+      "capitulo": 2,
+      "associacao": "posição",
+      "score": 0,
+      "figura": false,
+      "citado": false,
+      "visao": true
+    },
+    {
+      "slide": "A2-p6",
+      "titulo": "Isomerismo esquerdo – ázigos",
+      "capitulo": 2,
+      "associacao": "posição",
+      "score": 0,
+      "figura": true,
+      "citado": true,
+      "visao": true
+    },
+    {
+      "slide": "A2-p7",
+      "titulo": "Dextroposição",
+      "capitulo": 2,
+      "associacao": "fala",
+      "score": 0.1087,
+      "figura": true,
+      "citado": true,
+      "visao": true
+    }
+  ],
+  "temas": [
+    {
+      "janela": 0,
+      "tema": "revisao isomerismo sitios",
+      "cobertura": 1.0,
+      "paragrafos": "Parte 1, §1 a Parte 1, §44"
+    },
+    {
+      "janela": 1,
+      "tema": "revisao isomerismo voltando",
+      "cobertura": 1.0,
+      "paragrafos": "Parte 1, §45 a Parte 1, §75"
+    },
+    {
+      "janela": 2,
+      "tema": "revisao sitios voltando",
+      "cobertura": 1.0,
+      "paragrafos": "Parte 1, §76 a Parte 1, §94"
+    },
+    {
+      "janela": 3,
+      "tema": "revisao apice conexoes",
+      "cobertura": 1.0,
+      "paragrafos": "Parte 2, §1 a Parte 2, §28"
+    },
+    {
+      "janela": 4,
+      "tema": "revisao apice conexoes",
+      "cobertura": 1.0,
+      "paragrafos": "Parte 2, §29 a Parte 2, §54"
+    },
+    {
+      "janela": 5,
+      "tema": "revisao apice repetindo",
+      "cobertura": 1.0,
+      "paragrafos": "Parte 2, §55 a Parte 2, §78"
+    }
+  ],
+  "janelas_sem_slide": [],
+  "figuras_automaticas": [],
+  "quadros": {
+    "OBSERVAÇÃO DA PROFESSORA": 11,
+    "PONTO DE ATENÇÃO": 6,
+    "DICA CLÍNICA": 4,
+    "EXEMPLO DISCUTIDO": 1
+  },
+  "palavras_apostila": 898,
+  "palavras_fala": 5283,
+  "alvo_palavras": 1584,
+  "mapa": [
+    {
+      "capitulo": 1,
+      "titulo": "Situs solitus",
+      "fala": "Parte 1, §1 a Parte 1, §94",
+      "slides": "Situs fetal: slides 2, 4–8; Posição cardíaca: slides 3"
+    },
+    {
+      "capitulo": 2,
+      "titulo": "Sequência de avaliação",
+      "fala": "Parte 2, §1 a Parte 2, §78",
+      "slides": "Posição cardíaca: slides 3–7"
+    }
+  ],
+  "avisos": [],
+  "paginas_pdf": 11,
+  "entradas": {
+    "txts": [
+      "aula_parte1.txt",
+      "aula_parte2.txt"
+    ],
+    "pdfs": [
+      "AULA 01 - Situs.pdf",
+      "AULA 02 - Posição.pdf"
+    ]
+  },
+  "duracao_s": 2100,
+  "execucao": {
+    "modelos": "Simulador (testes)",
+    "aceleracao": "CPU (simulador de testes)",
+    "tempo": "0.0 min"
+  }
+}

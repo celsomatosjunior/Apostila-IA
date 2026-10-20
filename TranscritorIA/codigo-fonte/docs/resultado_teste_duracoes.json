@@ -1,0 +1,47 @@
+[
+  {
+    "minutos": 5,
+    "status": "concluido",
+    "erro": "",
+    "tempo_infra_s": 0.9,
+    "palavras": 617,
+    "wer_reconstrucao": 0.0,
+    "ram_pico_mb": 144
+  },
+  {
+    "minutos": 30,
+    "status": "concluido",
+    "erro": "",
+    "tempo_infra_s": 5.4,
+    "palavras": 3562,
+    "wer_reconstrucao": 0.0,
+    "ram_pico_mb": 213
+  },
+  {
+    "minutos": 60,
+    "status": "concluido",
+    "erro": "",
+    "tempo_infra_s": 10.7,
+    "palavras": 7127,
+    "wer_reconstrucao": 0.0,
+    "ram_pico_mb": 234
+  },
+  {
+    "minutos": 120,
+    "status": "concluido",
+    "erro": "",
+    "tempo_infra_s": 22.8,
+    "palavras": 14228,
+    "wer_reconstrucao": 0.0,
+    "ram_pico_mb": 364
+  },
+  {
+    "minutos": 150,
+    "status": "concluido",
+    "erro": "",
+    "tempo_infra_s": 25.7,
+    "palavras": 17768,
+    "wer_reconstrucao": 0.0,
+    "ram_pico_mb": 422
+  }
+]

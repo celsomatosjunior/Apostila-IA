@@ -1,0 +1,17 @@
+{
+  "perfil": "equilibrada",
+  "modo": "turbo",
+  "conjunto_modelos": "auto",
+  "backend": "auto",
+  "output_dir": "",
+  "last_input_dir": "",
+  "titulo_manual": "",
+  "usar_visao": true,
+  "incluir_figuras": true,
+  "incluir_esquemas": true,
+  "incluir_pontos_conferir": true,
+  "mostrar_fontes_na_apostila": false,
+  "remover_sem_suporte": true,
+  "abrir_pasta_ao_concluir": true,
+  "consent_downloads": false
+}

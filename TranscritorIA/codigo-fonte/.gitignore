@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+dist/
+dist-instalador/
+build/pyi-work/
+/engines/
+dados/
+ci-dados/
+ci-saida/
+tests/_gerados/
+autoteste_*.json
+resumo.md
